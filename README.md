@@ -44,12 +44,17 @@ Returns:
 An optimized LpProblem instance representing the scheduling model.
 
 
+### 3. Example call
+```bash
+# Define your satellites, ground stations, time windows, and other parameters
+S = ['S1', 'S2']
+G = ['G1', 'G2']
+TW = {('S1', 'G1', 'S1G1'): (0, 10), ...}
+Z = {'S1': 5.0, 'S2': 6.0}
+W1 = 0.5
 
+# Call the optimization function
+model = download_interval_schedule(S, G, TW, Z, W1)
 
-
-
-
-
-
-
-
+# The model object created above can now be used to analyze the results
+```
