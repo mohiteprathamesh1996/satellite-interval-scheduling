@@ -76,5 +76,5 @@ model = download_interval_schedule(S, G, TW, Z, W1)
 ```
 
 
-Contributing
+## Contributing
 We welcome contributions and suggestions to improve the algorithm and its implementation. Please feel free to fork the repository, make changes, and submit pull requests.
