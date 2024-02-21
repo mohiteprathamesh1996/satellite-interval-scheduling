@@ -74,3 +74,7 @@ model = download_interval_schedule(S, G, TW, Z, W1)
 
 # The model object created above can now be used to analyze the results
 ```
+
+
+Contributing
+We welcome contributions and suggestions to improve the algorithm and its implementation. Please feel free to fork the repository, make changes, and submit pull requests.
