@@ -46,11 +46,27 @@ An optimized LpProblem instance representing the scheduling model.
 
 ### 3. Example call
 ```bash
-# Define your satellites, ground stations, time windows, and other parameters
-S = ['S1', 'S2']
-G = ['G1', 'G2']
-TW = {('S1', 'G1', 'S1G1'): (0, 10), ...}
-Z = {'S1': 5.0, 'S2': 6.0}
+# Set of all Satellites
+S = ["s1", "s2"] 
+
+# Set of all Ground Stations
+G = ["g1", "g2"]
+
+# Set of all Time Windows in 'minutes' assuming evenly spaced from TW1 to TW8
+TW = {
+    ("s1", "g1", "s1g1") : (1, 4),
+    ("s1", "g2", "s1g2") : (3, 5),
+    ("s2", "g1", "s2g1") : (2, 7),
+    ("s2", "g2", "s2g2") : (6, 8)
+}
+
+# Set of all downloading times in 'minutes' for each satellite (Assumed values)
+Z = {
+    "s1" : 1.8,
+    "s2" : 2.7
+}
+
+# Objective function weights
 W1 = 0.5
 
 # Call the optimization function
