@@ -1,4 +1,4 @@
-# Optimization-Based Scheduling for Agile Earth-Observing Satellite Constellations
+# Optimized Schedule of satellite interaction with ground stations within specified time windows
 
 This repository contains the first stage implementation of a two-step binary linear programming method designed to optimize task scheduling within a constellation of low-Earth-orbit satellites. Leveraging a standard mixed-integer linear programming solver, this method allocates tasks among satellites to maximize the overall mission performance metric, considering optimal task starting times and satellite-ground station communication intervals
 
