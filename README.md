@@ -77,7 +77,7 @@ model = download_interval_schedule(S, G, TW, Z, W1)
 
 ## References
 
-- Optimization-Based Scheduling Method for Agile Earth-Observing Satellite Constellation
+- Cho, D.H., Kim, J.H., Choi, H.L. and Ahn, J., 2018. Optimization-based scheduling method for agile earth-observing satellite constellation. Journal of Aerospace Information Systems, 15(11), pp.611-626.
   - [Link to Paper](https://arc.aiaa.org/doi/pdf/10.2514/1.I010620)
 
 ## Contributing
